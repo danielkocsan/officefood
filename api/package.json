@@ -1,0 +1,20 @@
+{
+  "name": "backoffice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "caminte": "^0.2.7",
+    "hapi": "^13.3.0",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.12",
+    "swaggerize-hapi": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "mongo": "mongod --dbpath=./data/db"
+  },
+  "author": "",
+  "license": "ISC"
+}

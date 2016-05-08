@@ -1,0 +1,31 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.0",
+    "title": "Simple API"
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/restaurant": {
+      "post": {
+        "responses": {
+          "201": {
+            "description": "CREATED"
+          }
+        }
+      },
+      "get": {
+        "responses": {
+          "200": {
+            "description": "list of restaurants"
+          }
+        }
+      }
+    }
+  }
+}
